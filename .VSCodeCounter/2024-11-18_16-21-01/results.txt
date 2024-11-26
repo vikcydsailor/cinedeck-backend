@@ -1,0 +1,204 @@
+Date : 2024-11-18 16:21:01
+Directory : /Users/vivek/project/my-project
+Total : 123 files,  12599 codes, 1515 comments, 1050 blanks, all 15164 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          3 |      8,582 |          0 |          3 |      8,585 |
+| PHP        |        107 |      3,418 |      1,460 |        899 |      5,777 |
+| CSS        |          4 |        355 |         21 |         64 |        440 |
+| Markdown   |          1 |        124 |          0 |         50 |        174 |
+| JavaScript |          5 |         84 |         27 |         28 |        139 |
+| XML        |          1 |         29 |          2 |          1 |         32 |
+| SCSS       |          2 |          7 |          5 |          5 |         17 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                          | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                             |        123 |     12,599 |      1,515 |      1,050 |     15,164 |
+| . (Files)                                                                                                     |          6 |      8,748 |          2 |         56 |      8,806 |
+| app                                                                                                           |         38 |        863 |        380 |        289 |      1,532 |
+| app/Console                                                                                                   |          1 |         15 |          7 |          6 |         28 |
+| app/Exceptions                                                                                                |          1 |         17 |          9 |          5 |         31 |
+| app/Http                                                                                                      |         27 |        691 |        304 |        229 |      1,224 |
+| app/Http (Files)                                                                                              |          1 |         41 |         20 |          8 |         69 |
+| app/Http/Controllers                                                                                          |         16 |        534 |        219 |        177 |        930 |
+| app/Http/Controllers (Files)                                                                                  |          5 |        169 |         27 |         50 |        246 |
+| app/Http/Controllers/Admin                                                                                    |          5 |        270 |         75 |         86 |        431 |
+| app/Http/Controllers/Auth                                                                                     |          6 |         95 |        117 |         41 |        253 |
+| app/Http/Middleware                                                                                           |          9 |        100 |         57 |         39 |        196 |
+| app/Http/Requests                                                                                             |          1 |         16 |          8 |          5 |         29 |
+| app/Models                                                                                                    |          4 |         58 |         16 |         20 |         94 |
+| app/Providers                                                                                                 |          5 |         82 |         44 |         29 |        155 |
+| bootstrap                                                                                                     |          1 |         17 |         30 |          9 |         56 |
+| config                                                                                                        |         18 |        583 |        876 |        304 |      1,763 |
+| database                                                                                                      |         13 |        367 |         89 |         80 |        536 |
+| database/factories                                                                                            |          1 |         23 |         11 |          5 |         39 |
+| database/migrations                                                                                           |          9 |        279 |         62 |         56 |        397 |
+| database/seeders                                                                                              |          3 |         65 |         16 |         19 |        100 |
+| public                                                                                                        |          4 |        428 |         54 |         91 |        573 |
+| public (Files)                                                                                                |          1 |         14 |         30 |         12 |         56 |
+| public/css                                                                                                    |          2 |        354 |         19 |         63 |        436 |
+| public/js                                                                                                     |          1 |         60 |          5 |         16 |         81 |
+| resources                                                                                                     |         31 |      1,432 |         27 |        167 |      1,626 |
+| resources/css                                                                                                 |          1 |          0 |          0 |          1 |          1 |
+| resources/js                                                                                                  |          2 |          5 |         22 |          9 |         36 |
+| resources/sass                                                                                                |          2 |          7 |          5 |          5 |         17 |
+| resources/views                                                                                               |         26 |      1,420 |          0 |        152 |      1,572 |
+| resources/views (Files)                                                                                       |          2 |         21 |          0 |          5 |         26 |
+| resources/views/admin                                                                                         |         16 |        906 |          0 |         62 |        968 |
+| resources/views/admin (Files)                                                                                 |          1 |        159 |          0 |          3 |        162 |
+| resources/views/admin/includes                                                                                |          5 |        177 |          0 |         10 |        187 |
+| resources/views/admin/permissions                                                                             |          3 |        133 |          0 |         12 |        145 |
+| resources/views/admin/profile                                                                                 |          2 |         74 |          0 |          8 |         82 |
+| resources/views/admin/roles                                                                                   |          3 |        224 |          0 |         24 |        248 |
+| resources/views/admin/users                                                                                   |          2 |        139 |          0 |          5 |        144 |
+| resources/views/auth                                                                                          |          6 |        283 |          0 |         62 |        345 |
+| resources/views/auth (Files)                                                                                  |          3 |        149 |          0 |         32 |        181 |
+| resources/views/auth/passwords                                                                                |          3 |        134 |          0 |         30 |        164 |
+| resources/views/layouts                                                                                       |          2 |        210 |          0 |         23 |        233 |
+| routes                                                                                                        |          6 |        113 |         45 |         34 |        192 |
+| tests                                                                                                         |          4 |         41 |         10 |         19 |         70 |
+| tests (Files)                                                                                                 |          2 |         20 |          3 |         10 |         33 |
+| tests/Feature                                                                                                 |          1 |         11 |          4 |          5 |         20 |
+| tests/Unit                                                                                                    |          1 |         10 |          3 |          4 |         17 |
+| vendor                                                                                                        |          2 |          7 |          2 |          1 |         10 |
+| vendor/spatie                                                                                                 |          2 |          7 |          2 |          1 |         10 |
+| vendor/spatie/ignition                                                                                        |          2 |          7 |          2 |          1 |         10 |
+| vendor/spatie/ignition/resources                                                                              |          2 |          7 |          2 |          1 |         10 |
+| vendor/spatie/ignition/resources/compiled                                                                     |          2 |          7 |          2 |          1 |         10 |
++---------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                      | language   | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /Users/vivek/project/my-project/README.md                                                                     | Markdown   |        124 |          0 |         50 |        174 |
+| /Users/vivek/project/my-project/app/Console/Kernel.php                                                        | PHP        |         15 |          7 |          6 |         28 |
+| /Users/vivek/project/my-project/app/Exceptions/Handler.php                                                    | PHP        |         17 |          9 |          5 |         31 |
+| /Users/vivek/project/my-project/app/Http/Controllers/Admin/AdminController.php                                | PHP        |         17 |          0 |          7 |         24 |
+| /Users/vivek/project/my-project/app/Http/Controllers/Admin/PermissionController.php                           | PHP        |         56 |         21 |         18 |         95 |
+| /Users/vivek/project/my-project/app/Http/Controllers/Admin/ProfileController.php                              | PHP        |         82 |          8 |         22 |        112 |
+| /Users/vivek/project/my-project/app/Http/Controllers/Admin/RoleController.php                                 | PHP        |         55 |          0 |         23 |         78 |
+| /Users/vivek/project/my-project/app/Http/Controllers/Admin/UserController.php                                 | PHP        |         60 |         46 |         16 |        122 |
+| /Users/vivek/project/my-project/app/Http/Controllers/Auth/ConfirmPasswordController.php                       | PHP        |         14 |         20 |          7 |         41 |
+| /Users/vivek/project/my-project/app/Http/Controllers/Auth/ForgotPasswordController.php                        | PHP        |          8 |         10 |          5 |         23 |
+| /Users/vivek/project/my-project/app/Http/Controllers/Auth/LoginController.php                                 | PHP        |         14 |         20 |          7 |         41 |
+| /Users/vivek/project/my-project/app/Http/Controllers/Auth/RegisterController.php                              | PHP        |         33 |         32 |          9 |         74 |
+| /Users/vivek/project/my-project/app/Http/Controllers/Auth/ResetPasswordController.php                         | PHP        |         10 |         15 |          6 |         31 |
+| /Users/vivek/project/my-project/app/Http/Controllers/Auth/VerificationController.php                          | PHP        |         16 |         20 |          7 |         43 |
+| /Users/vivek/project/my-project/app/Http/Controllers/AuthController.php                                       | PHP        |         65 |          6 |         17 |         88 |
+| /Users/vivek/project/my-project/app/Http/Controllers/Controller.php                                           | PHP        |          9 |          0 |          4 |         13 |
+| /Users/vivek/project/my-project/app/Http/Controllers/HomeController.php                                       | PHP        |         14 |         10 |          5 |         29 |
+| /Users/vivek/project/my-project/app/Http/Controllers/MovieController.php                                      | PHP        |         48 |          4 |         11 |         63 |
+| /Users/vivek/project/my-project/app/Http/Controllers/WatchlistController.php                                  | PHP        |         33 |          7 |         13 |         53 |
+| /Users/vivek/project/my-project/app/Http/Kernel.php                                                           | PHP        |         41 |         20 |          8 |         69 |
+| /Users/vivek/project/my-project/app/Http/Middleware/Authenticate.php                                          | PHP        |         11 |          3 |          4 |         18 |
+| /Users/vivek/project/my-project/app/Http/Middleware/EncryptCookies.php                                        | PHP        |          8 |          6 |          4 |         18 |
+| /Users/vivek/project/my-project/app/Http/Middleware/PreventRequestsDuringMaintenance.php                      | PHP        |          8 |          6 |          4 |         18 |
+| /Users/vivek/project/my-project/app/Http/Middleware/RedirectIfAuthenticated.php                               | PHP        |         20 |          5 |          6 |         31 |
+| /Users/vivek/project/my-project/app/Http/Middleware/TrimStrings.php                                           | PHP        |         11 |          5 |          4 |         20 |
+| /Users/vivek/project/my-project/app/Http/Middleware/TrustHosts.php                                            | PHP        |         12 |          5 |          4 |         21 |
+| /Users/vivek/project/my-project/app/Http/Middleware/TrustProxies.php                                          | PHP        |         14 |         10 |          5 |         29 |
+| /Users/vivek/project/my-project/app/Http/Middleware/ValidateSignature.php                                     | PHP        |          8 |         11 |          4 |         23 |
+| /Users/vivek/project/my-project/app/Http/Middleware/VerifyCsrfToken.php                                       | PHP        |          8 |          6 |          4 |         18 |
+| /Users/vivek/project/my-project/app/Http/Requests/StorePermissionRequest.php                                  | PHP        |         16 |          8 |          5 |         29 |
+| /Users/vivek/project/my-project/app/Models/Favorite.php                                                       | PHP        |         12 |          0 |          5 |         17 |
+| /Users/vivek/project/my-project/app/Models/User.php                                                           | PHP        |         25 |         16 |          7 |         48 |
+| /Users/vivek/project/my-project/app/Models/UserMovieStatus.php                                                | PHP        |          9 |          0 |          4 |         13 |
+| /Users/vivek/project/my-project/app/Models/Watchlist.php                                                      | PHP        |         12 |          0 |          4 |         16 |
+| /Users/vivek/project/my-project/app/Providers/AppServiceProvider.php                                          | PHP        |         12 |          8 |          5 |         25 |
+| /Users/vivek/project/my-project/app/Providers/AuthServiceProvider.php                                         | PHP        |         11 |         11 |          5 |         27 |
+| /Users/vivek/project/my-project/app/Providers/BroadcastServiceProvider.php                                    | PHP        |         12 |          3 |          5 |         20 |
+| /Users/vivek/project/my-project/app/Providers/EventServiceProvider.php                                        | PHP        |         21 |         12 |          6 |         39 |
+| /Users/vivek/project/my-project/app/Providers/RouteServiceProvider.php                                        | PHP        |         26 |         10 |          8 |         44 |
+| /Users/vivek/project/my-project/bootstrap/app.php                                                             | PHP        |         17 |         30 |          9 |         56 |
+| /Users/vivek/project/my-project/composer.json                                                                 | JSON       |         70 |          0 |          1 |         71 |
+| /Users/vivek/project/my-project/composer.lock                                                                 | JSON       |      8,496 |          0 |          1 |      8,497 |
+| /Users/vivek/project/my-project/config/app.php                                                                | PHP        |         27 |        131 |         31 |        189 |
+| /Users/vivek/project/my-project/config/auth.php                                                               | PHP        |         28 |         74 |         14 |        116 |
+| /Users/vivek/project/my-project/config/breadcrumbs.php                                                        | PHP        |         10 |         52 |         14 |         76 |
+| /Users/vivek/project/my-project/config/broadcasting.php                                                       | PHP        |         36 |         23 |         13 |         72 |
+| /Users/vivek/project/my-project/config/cache.php                                                              | PHP        |         59 |         34 |         19 |        112 |
+| /Users/vivek/project/my-project/config/cors.php                                                               | PHP        |         11 |         12 |         12 |         35 |
+| /Users/vivek/project/my-project/config/database.php                                                           | PHP        |         83 |         47 |         22 |        152 |
+| /Users/vivek/project/my-project/config/devstarit.php                                                          | PHP        |          7 |          0 |          2 |          9 |
+| /Users/vivek/project/my-project/config/filesystems.php                                                        | PHP        |         32 |         32 |         13 |         77 |
+| /Users/vivek/project/my-project/config/hashing.php                                                            | PHP        |         12 |         32 |          9 |         53 |
+| /Users/vivek/project/my-project/config/logging.php                                                            | PHP        |         79 |         34 |         19 |        132 |
+| /Users/vivek/project/my-project/config/mail.php                                                               | PHP        |         54 |         53 |         19 |        126 |
+| /Users/vivek/project/my-project/config/permission.php                                                         | PHP        |         30 |         91 |         41 |        162 |
+| /Users/vivek/project/my-project/config/queue.php                                                              | PHP        |         51 |         42 |         17 |        110 |
+| /Users/vivek/project/my-project/config/sanctum.php                                                            | PHP        |         15 |         41 |         12 |         68 |
+| /Users/vivek/project/my-project/config/services.php                                                           | PHP        |         17 |         11 |          7 |         35 |
+| /Users/vivek/project/my-project/config/session.php                                                            | PHP        |         22 |        147 |         33 |        202 |
+| /Users/vivek/project/my-project/config/view.php                                                               | PHP        |         10 |         20 |          7 |         37 |
+| /Users/vivek/project/my-project/database/factories/UserFactory.php                                            | PHP        |         23 |         11 |          5 |         39 |
+| /Users/vivek/project/my-project/database/migrations/2014_10_12_000000_create_users_table.php                  | PHP        |         24 |          6 |          4 |         34 |
+| /Users/vivek/project/my-project/database/migrations/2014_10_12_100000_create_password_reset_tokens_table.php  | PHP        |         19 |          6 |          4 |         29 |
+| /Users/vivek/project/my-project/database/migrations/2014_10_12_100000_create_password_resets_table.php        | PHP        |         19 |         10 |          4 |         33 |
+| /Users/vivek/project/my-project/database/migrations/2019_08_19_000000_create_failed_jobs_table.php            | PHP        |         23 |          6 |          4 |         33 |
+| /Users/vivek/project/my-project/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php | PHP        |         24 |          6 |          4 |         34 |
+| /Users/vivek/project/my-project/database/migrations/2023_06_20_033844_create_permission_tables.php            | PHP        |        108 |         10 |         24 |        142 |
+| /Users/vivek/project/my-project/database/migrations/2024_11_13_012305_create_favorites_table.php              | PHP        |         20 |          6 |          4 |         30 |
+| /Users/vivek/project/my-project/database/migrations/2024_11_13_012309_create_user_movie_statuses_table.php    | PHP        |         21 |          6 |          4 |         31 |
+| /Users/vivek/project/my-project/database/migrations/2024_11_17_145115_create_watchlists_table.php             | PHP        |         21 |          6 |          4 |         31 |
+| /Users/vivek/project/my-project/database/seeders/DatabaseSeeder.php                                           | PHP        |         11 |          9 |          6 |         26 |
+| /Users/vivek/project/my-project/database/seeders/PermissionsTableSeeder.php                                   | PHP        |         28 |          3 |          5 |         36 |
+| /Users/vivek/project/my-project/database/seeders/UsersTableSeeder.php                                         | PHP        |         26 |          4 |          8 |         38 |
+| /Users/vivek/project/my-project/package.json                                                                  | JSON       |         16 |          0 |          1 |         17 |
+| /Users/vivek/project/my-project/phpunit.xml                                                                   | XML        |         29 |          2 |          1 |         32 |
+| /Users/vivek/project/my-project/public/css/custom.css                                                         | CSS        |        189 |          5 |         22 |        216 |
+| /Users/vivek/project/my-project/public/css/dashboard.css                                                      | CSS        |        165 |         14 |         41 |        220 |
+| /Users/vivek/project/my-project/public/index.php                                                              | PHP        |         14 |         30 |         12 |         56 |
+| /Users/vivek/project/my-project/public/js/color-modes.js                                                      | JavaScript |         60 |          5 |         16 |         81 |
+| /Users/vivek/project/my-project/resources/css/app.css                                                         | CSS        |          0 |          0 |          1 |          1 |
+| /Users/vivek/project/my-project/resources/js/app.js                                                           | JavaScript |          1 |          0 |          1 |          2 |
+| /Users/vivek/project/my-project/resources/js/bootstrap.js                                                     | JavaScript |          4 |         22 |          8 |         34 |
+| /Users/vivek/project/my-project/resources/sass/_variables.scss                                                | SCSS       |          4 |          2 |          2 |          8 |
+| /Users/vivek/project/my-project/resources/sass/app.scss                                                       | SCSS       |          3 |          3 |          3 |          9 |
+| /Users/vivek/project/my-project/resources/views/admin/includes/breadcrumb.blade.php                           | PHP        |         13 |          0 |          2 |         15 |
+| /Users/vivek/project/my-project/resources/views/admin/includes/flash.blade.php                                | PHP        |         10 |          0 |          1 |         11 |
+| /Users/vivek/project/my-project/resources/views/admin/includes/footer.blade.php                               | PHP        |          7 |          0 |          1 |          8 |
+| /Users/vivek/project/my-project/resources/views/admin/includes/navbar.blade.php                               | PHP        |         43 |          0 |          3 |         46 |
+| /Users/vivek/project/my-project/resources/views/admin/includes/sidebar.blade.php                              | PHP        |        104 |          0 |          3 |        107 |
+| /Users/vivek/project/my-project/resources/views/admin/index.blade.php                                         | PHP        |        159 |          0 |          3 |        162 |
+| /Users/vivek/project/my-project/resources/views/admin/permissions/create.blade.php                            | PHP        |         29 |          0 |          3 |         32 |
+| /Users/vivek/project/my-project/resources/views/admin/permissions/edit.blade.php                              | PHP        |         30 |          0 |          3 |         33 |
+| /Users/vivek/project/my-project/resources/views/admin/permissions/index.blade.php                             | PHP        |         74 |          0 |          6 |         80 |
+| /Users/vivek/project/my-project/resources/views/admin/profile/change-password.blade.php                       | PHP        |         39 |          0 |          4 |         43 |
+| /Users/vivek/project/my-project/resources/views/admin/profile/edit.blade.php                                  | PHP        |         35 |          0 |          4 |         39 |
+| /Users/vivek/project/my-project/resources/views/admin/roles/create.blade.php                                  | PHP        |         71 |          0 |          8 |         79 |
+| /Users/vivek/project/my-project/resources/views/admin/roles/edit.blade.php                                    | PHP        |         72 |          0 |          9 |         81 |
+| /Users/vivek/project/my-project/resources/views/admin/roles/index.blade.php                                   | PHP        |         81 |          0 |          7 |         88 |
+| /Users/vivek/project/my-project/resources/views/admin/users/create.blade.php                                  | PHP        |         49 |          0 |          3 |         52 |
+| /Users/vivek/project/my-project/resources/views/admin/users/index.blade.php                                   | PHP        |         90 |          0 |          2 |         92 |
+| /Users/vivek/project/my-project/resources/views/auth/login.blade.php                                          | PHP        |         61 |          0 |         13 |         74 |
+| /Users/vivek/project/my-project/resources/views/auth/passwords/confirm.blade.php                              | PHP        |         41 |          0 |          9 |         50 |
+| /Users/vivek/project/my-project/resources/views/auth/passwords/email.blade.php                                | PHP        |         40 |          0 |          8 |         48 |
+| /Users/vivek/project/my-project/resources/views/auth/passwords/reset.blade.php                                | PHP        |         53 |          0 |         13 |         66 |
+| /Users/vivek/project/my-project/resources/views/auth/register.blade.php                                       | PHP        |         63 |          0 |         15 |         78 |
+| /Users/vivek/project/my-project/resources/views/auth/verify.blade.php                                         | PHP        |         25 |          0 |          4 |         29 |
+| /Users/vivek/project/my-project/resources/views/home.blade.php                                                | PHP        |         20 |          0 |          4 |         24 |
+| /Users/vivek/project/my-project/resources/views/layouts/app.blade.php                                         | PHP        |         69 |          0 |         12 |         81 |
+| /Users/vivek/project/my-project/resources/views/layouts/master.blade.php                                      | PHP        |        141 |          0 |         11 |        152 |
+| /Users/vivek/project/my-project/resources/views/welcome.blade.php                                             | PHP        |          1 |          0 |          1 |          2 |
+| /Users/vivek/project/my-project/routes/admin.php                                                              | PHP        |         20 |          1 |          6 |         27 |
+| /Users/vivek/project/my-project/routes/api.php                                                                | PHP        |         25 |         10 |          7 |         42 |
+| /Users/vivek/project/my-project/routes/breadcrumbs.php                                                        | PHP        |         49 |          4 |          7 |         60 |
+| /Users/vivek/project/my-project/routes/channels.php                                                           | PHP        |          5 |         10 |          4 |         19 |
+| /Users/vivek/project/my-project/routes/console.php                                                            | PHP        |          6 |         10 |          4 |         20 |
+| /Users/vivek/project/my-project/routes/web.php                                                                | PHP        |          8 |         10 |          6 |         24 |
+| /Users/vivek/project/my-project/tests/CreatesApplication.php                                                  | PHP        |         13 |          3 |          6 |         22 |
+| /Users/vivek/project/my-project/tests/Feature/ExampleTest.php                                                 | PHP        |         11 |          4 |          5 |         20 |
+| /Users/vivek/project/my-project/tests/TestCase.php                                                            | PHP        |          7 |          0 |          4 |         11 |
+| /Users/vivek/project/my-project/tests/Unit/ExampleTest.php                                                    | PHP        |         10 |          3 |          4 |         17 |
+| /Users/vivek/project/my-project/vendor/spatie/ignition/resources/compiled/ignition.css                        | CSS        |          1 |          2 |          0 |          3 |
+| /Users/vivek/project/my-project/vendor/spatie/ignition/resources/compiled/ignition.js                         | JavaScript |          6 |          0 |          1 |          7 |
+| /Users/vivek/project/my-project/vite.config.js                                                                | JavaScript |         13 |          0 |          2 |         15 |
+| Total                                                                                                         |            |     12,599 |      1,515 |      1,050 |     15,164 |
++---------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
