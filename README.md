@@ -4,23 +4,14 @@
 
 The Laravel Admin Dashboard is a web-based application that serves as a starting point for an Admin Dashboard panel, complete with User Management and Roles Permissions.
 
-- Constructed using Laravel 10
-- Incorporates Bootstrap 5.3
-- Features an Authentication System
-- Includes User Management with a Block/Unblock System
-- Equipped with a Roles Permissions System
-- Allows User Profile Viewing and Updating
-- Enables User Password Changes
-- More features to be added soon
-
 ## Installation
 
 ``` bash
 # clone the repo
-$ git clone https://github.com/subrata6630/laravel-dashboard my-project
+$ git clone https://github.com/vikcydsailor/cinedeck-backend cinedeck-backend
 
 # go into app's directory
-$ cd my-project
+$ cd cinedeck-backend
 
 # install app's dependencies
 $ composer install
@@ -32,69 +23,6 @@ $ npm install
 $ npm run dev
 
 ```
-
-### If you choice to use SQLite
-
-``` bash
-
-# create database
-$ touch database/database.sqlite
-```
-Copy file ".env.example", and change its name to ".env".
-Then in file ".env" replace this database configuration:
-* DB_CONNECTION=mysql
-* DB_HOST=127.0.0.1
-* DB_PORT=3306
-* DB_DATABASE=laravel
-* DB_USERNAME=root
-* DB_PASSWORD=
-
-To this:
-
-* DB_CONNECTION=sqlite
-* DB_DATABASE=/path_to_your_project/database/database.sqlite
-
-### If you choice to use PostgreSQL
-
-1. Install PostgreSQL
-
-2. Create user
-``` bash
-$ sudo -u postgres createuser --interactive
-enter name of role to add: laravel
-shall the new role be a superuser (y/n) n
-shall the new role be allowed to create database (y/n) n
-shall the new role be allowed to create more new roles (y/n) n
-```
-3. Set user password
-``` bash
-$ sudo -u postgres psql
-postgres= ALTER USER laravel WITH ENCRYPTED PASSWORD 'password';
-postgres= \q
-```
-4. Create database
-``` bash
-$ sudo -u postgres createdb laravel
-```
-5. Copy file ".env.example", and change its name to ".env".
-Then in file ".env" replace this database configuration:
-
-* DB_CONNECTION=mysql
-* DB_HOST=127.0.0.1
-* DB_PORT=3306
-* DB_DATABASE=laravel
-* DB_USERNAME=root
-* DB_PASSWORD=
-
-To this:
-
-* DB_CONNECTION=pgsql
-* DB_HOST=127.0.0.1
-* DB_PORT=5432
-* DB_DATABASE=laravel
-* DB_USERNAME=laravel
-* DB_PASSWORD=password
-
 ### If you choice to use MySQL
 
 Copy file ".env.example", and change its name to ".env".
@@ -109,7 +37,7 @@ Then in file ".env" complete this database configuration:
 ### Set APP_URL
 
 > If your project url looks like: example.com/sub-folder 
-Then go to `my-project/.env`
+Then go to `cinedeck-backend/.env`
 And modify this line:
 
 * APP_URL = 
