@@ -32,7 +32,7 @@ class RecommendationController extends Controller
             ->take(3);             // Take only 3 genre from these
             //sample 28, 18, 80, 53, 878,27, 9648
             // Step 2: Get the top 4 most frequent genre IDs from the entire dataset
-            $topFourGenres = $userPrefs->pluck('category')
+            $topTwoGenres = $userPrefs->pluck('category')
             ->flatMap(function ($item) {
             return explode(',', $item); // Split each "category" entry into individual genre IDs
             })
@@ -43,7 +43,7 @@ class RecommendationController extends Controller
             ->take(2);               // Take the top 4 genres
 
             // Step 3: Merge the selected genres and convert to a comma-separated string
-            $genreIds = $lastThreeGenres->merge($topFourGenres)
+            $genreIds = $lastThreeGenres->merge($topTwoGenres)
             ->implode(','); 
 
     
